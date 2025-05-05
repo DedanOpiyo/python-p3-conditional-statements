@@ -69,3 +69,35 @@ function calculator(operation, num1, num2) {
       console.log("Invalid operation!");
   }
 }
+
+
+// // JavaScript
+let dog = "cuddly";
+let owner;
+
+if (dog === "hungry") {
+  owner = "Refilling food bowl.";
+} else if (dog === "thirsty") {
+  owner = "Refilling water bowl.";
+} else if (dog === "playful") {
+  owner = "Playing tug-of-war.";
+} else if (dog === "cuddly") {
+  owner = "Snuggling.";
+} else {
+  owner = "Reading newspaper.";
+}
+
+// // Python:
+// dog = "cuddly"
+
+// if dog == "hungry" :
+//     owner = "Refilling food bowl."
+// elseif dog == "thirsty" :
+//     owner = "Refilling water bowl."
+// elseif dog == "playful":
+//     owner = "Playing tug-of-war."
+// elseif dog == "cuddly":
+//     owner = "Snuggling"
+// else:
+//     owner = "Reading newspaper."
+
